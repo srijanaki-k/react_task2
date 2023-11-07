@@ -1,0 +1,89 @@
+/* styling for calculator */
+/* task2 */
+
+.keypad{
+    display: flex;
+    flex-wrap: wrap;
+    height: 196px;
+    box-sizing: border-box;
+    
+    
+}
+.lrow{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    
+    
+    
+}
+.one{
+    width: 204px;
+    padding: 2px;
+    height: 100px; 
+    background-color: rgb(30, 38, 74);
+    border: none;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: end;
+    font-size: large;
+    color: beige;
+}
+.zero{
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    
+
+    width: 208px;
+   
+}
+.btn{
+    width: 52px;
+    border: none;
+    outline: none;
+    height: 49px;
+    font-size: large;
+    
+    background-color: rgb(3, 9, 40);
+    color: beige;
+    
+    
+    
+}
+.btnl{
+    width: 52px;
+    border: none;
+    outline: none;
+    height: 39.2px;
+    font-size: large;
+    
+    background-color:  rgb(3, 9, 40);
+    color: rgb(119, 141, 215);
+    
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(50, 58, 90);
+}
+.btnl:hover{
+    cursor: pointer;
+    background-color: rgb(50, 58, 90);
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    color: rgb(10, 0, 46);
+    background-image: linear-gradient(to right, rgb(0, 187, 255) , rgb(0, 255, 247),rgb(0, 255, 72));
+}
+#bn{
+    border-bottom-left-radius: 9px;
+}
+#bn1{
+    border-bottom-right-radius: 9px;
+}
